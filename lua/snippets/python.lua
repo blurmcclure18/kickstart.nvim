@@ -33,31 +33,31 @@ ls.add_snippets('python', {
     f(function()
       _G.contract_counter = _G.contract_counter + 1
       write_counter(_G.contract_counter)
-      return 'mic_Contract_' .. _G.contract_counter
+      return 'hur_Contract_' .. _G.contract_counter
     end),
     t {
       ' = Contract(',
       '    contract_Origin=',
     },
-    i(1, 'microTech'),
+    i(1, 'hurston'),
     t { ',', '    contract_Rank=' },
     i(2, 'junior'),
     t { ',', '    contract_Type=' },
     i(3, ''),
     t { ',', '    contract_Size=' },
-    i(4, ''),
+    i(4, 'medium'),
     t { ',', '    from_Location=' },
     i(5, ''),
     t { ',', '    deliveries=[' },
-    t '        (',
+    t '(',
     i(6, 'amount'),
-    t ', "',
+    t ', ',
     i(7, 'item'),
-    t '", ',
+    t ', ',
     i(8, 'destination'),
     t ')',
     t { ',', '    ],', '    max_Container=' },
-    i(9, ''),
+    i(9, '8'),
     t { ',', '    contract_Pay=' },
     i(10, ''),
     t ')',
