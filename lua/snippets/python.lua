@@ -41,7 +41,7 @@ ls.add_snippets('python', {
     },
     i(1, 'microTech'),
     t { ',', '    contract_Rank=' },
-    i(2, 'rookie'),
+    i(2, 'junior'),
     t { ',', '    contract_Type=' },
     i(3, ''),
     t { ',', '    contract_Size=' },
